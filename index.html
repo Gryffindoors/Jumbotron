@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+
+<body>
+    <section class="container position-relative">
+        <nav class="navbar d-flex justify-content-start border-bottom w-100">
+            <svg xmlns="http://www.w3.org/2000/svg" width=40 height="40" viewBox="0 0 576 512"
+                role="img"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                    d="M333.5 201.4c0-22.1-15.6-34.3-43-34.3h-50.4v71.2h42.5C315.4 238.2 333.5 225 333.5 201.4zM517 188.6c-9.5-30.9-10.9-68.8-9.8-98.1c1.1-30.5-22.7-58.5-54.7-58.5H123.7c-32.1 0-55.8 28.1-54.7 58.5c1 29.3-.3 67.2-9.8 98.1c-9.6 31-25.7 50.6-52.2 53.1v28.5c26.4 2.5 42.6 22.1 52.2 53.1c9.5 30.9 10.9 68.8 9.8 98.1c-1.1 30.5 22.7 58.5 54.7 58.5h328.7c32.1 0 55.8-28.1 54.7-58.5c-1-29.3 .3-67.2 9.8-98.1c9.6-31 25.7-50.6 52.1-53.1v-28.5C542.7 239.2 526.5 219.6 517 188.6zM300.2 375.1h-97.9V136.8h97.4c43.3 0 71.7 23.4 71.7 59.4c0 25.3-19.1 47.9-43.5 51.8v1.3c33.2 3.6 55.5 26.6 55.5 58.3C383.4 349.7 352.1 375.1 300.2 375.1zM290.2 266.4h-50.1v78.4h52.3c34.2 0 52.3-13.7 52.3-39.5C344.7 279.6 326.1 266.4 290.2 266.4z" />
+            </svg>
+            <a href="#" class="text-decoration-none fs-2 text-dark my-3 ms-2 ">Jumbotron example</a>
+        </nav>
+
+        <div class="my-3 py-5 ps-2 bg-light rounded-3">
+            <div class="w-50 ms-5 my-2">
+                <h2 class="fw-bolder fs-1">Custom jumbotron</h2>
+                <p class="text-justify fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+                </p>
+                <button class="btn btn-primary fs-5">
+                    Example button
+                </button>
+            </div>
+        </div>
+        <!-- Section -->
+        <div class="d-flex justify-content-between border-bottom w-100 gap-5">
+            <div class="text-bg-dark rounded-3 p-3 border-2 border-light mb-3">
+                <h2>Change the background</h2>
+                <p class="text-justify fs-6">Swap the background-color utility and add a `.text-*` color utility to mix
+                    up the jumbotron look. Then, mix and match with additional component themes and more.
+                </p>
+                <button class="btn btn-dark border-2 border-light-subtle">
+                    Example button
+                </button>
+            </div>
+
+            <div class="text-bg-light rounded-3 p-3 border-2 border-dark mb-3">
+                <h2>Add borders</h2>
+                <p class="text-justify fs-6">Or, keep it light and add a border for some added definition to the
+                    boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted
+                    the alignment and sizing of both column's content for equal-height.</p>
+                <button class="btn btn-light border-2 border-dark-subtle">
+                    Example button
+                </button>
+            </div>
+        </div>
+        <!-- Section -->
+        <div class="d-flex justify-content-start gap-2 flex-row text-light-emphasis mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width=20px height="20px" viewBox="0 -960 960 960" fill="#000000"
+                role="img">
+                <path
+                    d="M400-320h160q17 0 28.5-11.5T600-360v-80h-80v40h-80v-160h80v40h80v-80q0-17-11.5-28.5T560-640H400q-17 0-28.5 11.5T360-600v240q0 17 11.5 28.5T400-320Zm80 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" />
+            </svg>
+            <p>2024</p>
+        </div>
+        <!-- Section -->
+        <div class="dropdown position-fixed bottom-0 end-0 ">
+            <button class="btn btn-primary dropdown-toggle p-2 fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+                    <path d="M460-743.08v-135.38h40v135.38h-40Zm219.85 91.54-27.31-27.31 94.31-98.07 29.07 29.3-96.07 96.08ZM743.08-460v-40h135.38v40H743.08ZM460-81.54v-134.61h40v134.61h-40ZM281.69-652.77l-98.61-94.08 30.07-28.3 96.08 95.3-27.54 27.08Zm464.93 469.69-94.08-98.07 27.08-26.31 95.53 93.84-28.53 30.54ZM81.54-460v-40h135.38v40H81.54Zm130.84 276.92-27.53-30.07 94.3-94.31 14.39 13.92 15.15 14.16-96.31 96.3ZM480.18-280q-83.26 0-141.72-58.28Q280-396.56 280-479.82q0-83.26 58.28-141.72Q396.56-680 479.82-680q83.26 0 141.72 58.28Q680-563.44 680-480.18q0 83.26-58.28 141.72Q563.44-280 480.18-280Zm-.18-40q66 0 113-47t47-113q0-66-47-113t-113-47q-66 0-113 47t-47 113q0 66 47 113t113 47Zm0-160Z" />
+                </svg>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </section>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
